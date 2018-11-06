@@ -14,6 +14,8 @@ def main():
     # Needs to print the message below.
     if ex_1.routes() == srx_1.routes():
         print('Eeeexcellent.')
+    else:
+        print('Please try again.')
 
 if __name__ == '__main__':
     sys.exit(main())
